@@ -1,4 +1,4 @@
-package vn.hoidanit.laptopshop.controller;
+package vn.Laptopshop.laptopshop.controller;
 
 import java.io.BufferedOutputStream;
 import java.io.File;
@@ -17,8 +17,8 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.multipart.MultipartFile;
 
 import jakarta.servlet.ServletContext;
-import vn.hoidanit.laptopshop.domain.User;
-import vn.hoidanit.laptopshop.service.UserService;
+import vn.Laptopshop.laptopshop.domain.User;
+import vn.Laptopshop.laptopshop.service.UserService;
 
 @Controller
 public class UserController {

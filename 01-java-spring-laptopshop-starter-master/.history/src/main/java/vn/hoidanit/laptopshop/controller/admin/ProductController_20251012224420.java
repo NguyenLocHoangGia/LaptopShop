@@ -1,4 +1,4 @@
-package vn.hoidanit.laptopshop.controller.admin;
+package vn.Laptopshop.laptopshop.controller.admin;
 
 import java.util.List;
 
@@ -10,9 +10,9 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.PathVariable;
 
-import vn.hoidanit.laptopshop.domain.Product;
-import vn.hoidanit.laptopshop.service.ProductService;
-import vn.hoidanit.laptopshop.service.UploadFileService;
+import vn.Laptopshop.laptopshop.domain.Product;
+import vn.Laptopshop.laptopshop.service.ProductService;
+import vn.Laptopshop.laptopshop.service.UploadFileService;
 
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestParam;

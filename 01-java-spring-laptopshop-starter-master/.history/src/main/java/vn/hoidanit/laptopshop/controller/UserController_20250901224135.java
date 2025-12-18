@@ -1,4 +1,4 @@
-package vn.hoidanit.laptopshop.controller;
+package vn.Laptopshop.laptopshop.controller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -6,9 +6,9 @@ import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 
-import vn.hoidanit.laptopshop.domain.User;
-import vn.hoidanit.laptopshop.repository.UserRepository;
-import vn.hoidanit.laptopshop.service.UserService;
+import vn.Laptopshop.laptopshop.domain.User;
+import vn.Laptopshop.laptopshop.repository.UserRepository;
+import vn.Laptopshop.laptopshop.service.UserService;
 
 @Controller
 public class UserController {

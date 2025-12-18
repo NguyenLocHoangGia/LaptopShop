@@ -1,4 +1,4 @@
-package vn.hoidanit.laptopshop.domain.dto;
+package vn.Laptopshop.laptopshop.domain.dto;
 
 public class RegisterDTO {
     private String firstName;

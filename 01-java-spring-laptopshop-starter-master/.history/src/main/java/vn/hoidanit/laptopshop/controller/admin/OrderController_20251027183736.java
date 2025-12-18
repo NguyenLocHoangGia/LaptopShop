@@ -1,4 +1,4 @@
-package vn.hoidanit.laptopshop.controller.admin;
+package vn.Laptopshop.laptopshop.controller.admin;
 
 import java.util.List;
 
@@ -9,8 +9,8 @@ import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 
-import vn.hoidanit.laptopshop.domain.Order;
-import vn.hoidanit.laptopshop.service.OrderService;
+import vn.Laptopshop.laptopshop.domain.Order;
+import vn.Laptopshop.laptopshop.service.OrderService;
 
 @Controller
 public class OrderController {

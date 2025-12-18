@@ -1,13 +1,13 @@
-package vn.hoidanit.laptopshop.service;
+package vn.Laptopshop.laptopshop.service;
 
 import java.util.List;
 
 import org.springframework.stereotype.Service;
 
-import vn.hoidanit.laptopshop.domain.Role;
-import vn.hoidanit.laptopshop.domain.User;
-import vn.hoidanit.laptopshop.repository.RoleRepository;
-import vn.hoidanit.laptopshop.repository.UserRepository;
+import vn.Laptopshop.laptopshop.domain.Role;
+import vn.Laptopshop.laptopshop.domain.User;
+import vn.Laptopshop.laptopshop.repository.RoleRepository;
+import vn.Laptopshop.laptopshop.repository.UserRepository;
 
 @Service
 public class UserService {

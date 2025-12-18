@@ -1,4 +1,4 @@
-package vn.hoidanit.laptopshop.controller.client;
+package vn.Laptopshop.laptopshop.controller.client;
 
 import java.util.List;
 
@@ -8,11 +8,11 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.ModelAttribute;
 
-import vn.hoidanit.laptopshop.domain.Product;
-import vn.hoidanit.laptopshop.domain.User;
-import vn.hoidanit.laptopshop.domain.dto.RegisterDTO;
-import vn.hoidanit.laptopshop.service.ProductService;
-import vn.hoidanit.laptopshop.service.UserService;
+import vn.Laptopshop.laptopshop.domain.Product;
+import vn.Laptopshop.laptopshop.domain.User;
+import vn.Laptopshop.laptopshop.domain.dto.RegisterDTO;
+import vn.Laptopshop.laptopshop.service.ProductService;
+import vn.Laptopshop.laptopshop.service.UserService;
 
 @Controller
 public class HomePageController {

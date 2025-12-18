@@ -1,4 +1,4 @@
-package vn.hoidanit.laptopshop.domain;
+package vn.Laptopshop.laptopshop.domain;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;

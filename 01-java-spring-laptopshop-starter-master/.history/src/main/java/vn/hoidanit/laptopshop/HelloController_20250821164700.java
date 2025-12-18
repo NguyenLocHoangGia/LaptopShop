@@ -1,4 +1,4 @@
-package vn.hoidanit.laptopshop;
+package vn.Laptopshop.laptopshop;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;

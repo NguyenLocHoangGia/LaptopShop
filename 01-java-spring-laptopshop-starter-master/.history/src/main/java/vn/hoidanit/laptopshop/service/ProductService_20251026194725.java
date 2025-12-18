@@ -1,4 +1,4 @@
-package vn.hoidanit.laptopshop.service;
+package vn.Laptopshop.laptopshop.service;
 
 import java.util.List;
 import java.util.Optional;
@@ -6,15 +6,15 @@ import java.util.Optional;
 import org.springframework.stereotype.Service;
 
 import jakarta.servlet.http.HttpSession;
-import vn.hoidanit.laptopshop.domain.Cart;
-import vn.hoidanit.laptopshop.domain.CartDetail;
-import vn.hoidanit.laptopshop.domain.Product;
-import vn.hoidanit.laptopshop.domain.User;
-import vn.hoidanit.laptopshop.repository.CartDetailRepository;
-import vn.hoidanit.laptopshop.repository.CartRepository;
-import vn.hoidanit.laptopshop.repository.OrderDetailRepository;
-import vn.hoidanit.laptopshop.repository.OrderRepository;
-import vn.hoidanit.laptopshop.repository.ProductRepository;
+import vn.Laptopshop.laptopshop.domain.Cart;
+import vn.Laptopshop.laptopshop.domain.CartDetail;
+import vn.Laptopshop.laptopshop.domain.Product;
+import vn.Laptopshop.laptopshop.domain.User;
+import vn.Laptopshop.laptopshop.repository.CartDetailRepository;
+import vn.Laptopshop.laptopshop.repository.CartRepository;
+import vn.Laptopshop.laptopshop.repository.OrderDetailRepository;
+import vn.Laptopshop.laptopshop.repository.OrderRepository;
+import vn.Laptopshop.laptopshop.repository.ProductRepository;
 
 @Service
 public class ProductService {

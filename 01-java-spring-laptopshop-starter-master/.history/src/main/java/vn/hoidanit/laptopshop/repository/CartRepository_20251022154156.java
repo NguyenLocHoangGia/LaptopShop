@@ -1,4 +1,4 @@
-package vn.hoidanit.laptopshop.repository;
+package vn.Laptopshop.laptopshop.repository;
 
 public interface CartRepository {
 

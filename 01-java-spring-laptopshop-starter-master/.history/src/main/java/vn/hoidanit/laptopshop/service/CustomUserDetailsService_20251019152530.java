@@ -1,4 +1,4 @@
-package vn.hoidanit.laptopshop.service;
+package vn.Laptopshop.laptopshop.service;
 
 import java.util.Collections;
 
@@ -19,7 +19,7 @@ public class CustomUserDetailsService implements UserDetailsService {
     @Override
     public UserDetails loadUserByUsername(String username) throws UsernameNotFoundException {
         // logic
-        vn.hoidanit.laptopshop.domain.User user = this.userService.getUserByEmail(username);
+        vn.Laptopshop.laptopshop.domain.User user = this.userService.getUserByEmail(username);
         if (username == null) {
             throw new UsernameNotFoundException("User not found");
         }

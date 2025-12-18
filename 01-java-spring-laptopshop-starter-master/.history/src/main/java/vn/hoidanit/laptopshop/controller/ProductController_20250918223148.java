@@ -1,4 +1,4 @@
-package vn.hoidanit.laptopshop.controller;
+package vn.Laptopshop.laptopshop.controller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;

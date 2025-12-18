@@ -1,11 +1,11 @@
-package vn.hoidanit.laptopshop.service;
+package vn.Laptopshop.laptopshop.service;
 
 import java.util.List;
 
 import org.springframework.stereotype.Service;
 
-import vn.hoidanit.laptopshop.domain.Order;
-import vn.hoidanit.laptopshop.repository.OrderRepository;
+import vn.Laptopshop.laptopshop.domain.Order;
+import vn.Laptopshop.laptopshop.repository.OrderRepository;
 
 @Service
 public class OrderService {

@@ -1,4 +1,4 @@
-package vn.hoidanit.laptopshop.config;
+package vn.Laptopshop.laptopshop.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -14,8 +14,8 @@ import org.springframework.security.web.authentication.AuthenticationSuccessHand
 import org.springframework.session.security.web.authentication.SpringSessionRememberMeServices;
 
 import jakarta.servlet.DispatcherType;
-import vn.hoidanit.laptopshop.service.CustomUserDetailsService;
-import vn.hoidanit.laptopshop.service.UserService;
+import vn.Laptopshop.laptopshop.service.CustomUserDetailsService;
+import vn.Laptopshop.laptopshop.service.UserService;
 
 @Configuration
 @EnableMethodSecurity(securedEnabled = true)

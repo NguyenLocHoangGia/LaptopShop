@@ -1,4 +1,4 @@
-package vn.hoidanit.laptopshop.controller.client;
+package vn.Laptopshop.laptopshop.controller.client;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -9,11 +9,11 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.PathVariable;
 
-import vn.hoidanit.laptopshop.domain.Cart;
-import vn.hoidanit.laptopshop.domain.CartDetail;
-import vn.hoidanit.laptopshop.domain.Product;
-import vn.hoidanit.laptopshop.domain.User;
-import vn.hoidanit.laptopshop.service.ProductService;
+import vn.Laptopshop.laptopshop.domain.Cart;
+import vn.Laptopshop.laptopshop.domain.CartDetail;
+import vn.Laptopshop.laptopshop.domain.Product;
+import vn.Laptopshop.laptopshop.domain.User;
+import vn.Laptopshop.laptopshop.service.ProductService;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 

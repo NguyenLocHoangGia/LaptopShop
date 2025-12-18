@@ -1,4 +1,4 @@
-package vn.hoidanit.laptopshop.service;
+package vn.Laptopshop.laptopshop.service;
 
 import java.io.BufferedOutputStream;
 import java.io.File;

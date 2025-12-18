@@ -1,4 +1,4 @@
-package vn.hoidanit.laptopshop.controller;
+package vn.Laptopshop.laptopshop.controller;
 
 import java.util.List;
 
@@ -10,8 +10,8 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 
-import vn.hoidanit.laptopshop.domain.User;
-import vn.hoidanit.laptopshop.service.UserService;
+import vn.Laptopshop.laptopshop.domain.User;
+import vn.Laptopshop.laptopshop.service.UserService;
 import org.springframework.web.bind.annotation.RequestBody;
 
 @Controller
